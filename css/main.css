@@ -1,6 +1,5 @@
-.body{
-margin: 0 ;
-padding-inline-end: 0;
+body{
+margin: 0;
 }
 ul{
 padding: 0px!important;
@@ -81,4 +80,29 @@ float: left;
 position: relative;
 height: 70px;
 border-bottom: 3px solid #868080
+}
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 20px;
+    height: 21px;
+    background-color: transparent;
+    background-image: url(../img/ceta\ esquerda.png);
+    z-index: 9;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+button.slick-next{
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    width: 20px;
+    height: 21px;
+    background-color: transparent;
+    background-image: url(../img/ceta\ direita.png);
+    position: absolute;
+    z-index: 9;
+    top: 150px;
+    right: 100px;
 }
