@@ -90,7 +90,7 @@ button.slick-prev{
     background-image: url(../img/ceta\ esquerda.png);
     z-index: 9;
     position: absolute;
-    top: 150px;
+    top: 24px;
     left: 100px;
 }
 button.slick-next{
@@ -103,6 +103,6 @@ button.slick-next{
     background-image: url(../img/ceta\ direita.png);
     position: absolute;
     z-index: 9;
-    top: 150px;
+    top: 24px;
     right: 100px;
 }
