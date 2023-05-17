@@ -90,7 +90,7 @@ button.slick-prev{
     background-image: url(../img/ceta\ esquerda.png);
     z-index: 9;
     position: absolute;
-    top: 24px;
+    top: 100px;
     left: 100px;
 }
 button.slick-next{
@@ -103,6 +103,22 @@ button.slick-next{
     background-image: url(../img/ceta\ direita.png);
     position: absolute;
     z-index: 9;
-    top: 24px;
+    top: 100px;
     right: 100px;
+}
+.slider-principal {
+    width: 100%!important;
+}
+
+ul.slick-dots li button{
+    font-size: 0px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+ul.slick-dots li.slick-active {
+    background-color: rgb(255, 0, 170);
+
 }
