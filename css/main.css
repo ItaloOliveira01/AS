@@ -81,6 +81,9 @@ position: relative;
 height: 70px;
 border-bottom: 3px solid #868080
 }
+.slick-slider {
+    height: none !important;
+}
 button.slick-prev{
     font-size: 0px;
     border: none;
